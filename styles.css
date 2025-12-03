@@ -232,12 +232,21 @@ body {
 
 /* RESUME BUTTON */
 .resume-btn {
-  padding: 12px 20px;
-  background: #2f6d68;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #2f6d68, #1b4a47);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s ease;
 }
+
+.resume-btn:hover {
+    background: linear-gradient(135deg, #24615c, #13312f);
+    transform: translateY(-3px);
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
@@ -263,4 +272,5 @@ body {
     padding: 100px 20px;
   }
 }
+
 
