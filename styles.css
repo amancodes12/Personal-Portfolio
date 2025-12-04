@@ -242,12 +242,6 @@ body {
     transition: 0.3s ease;
 }
 
-.resume-btn:hover {
-    background: linear-gradient(135deg, #24615c, #13312f);
-    transform: translateY(-3px);
-}
-
-
 /* RESPONSIVE */
 @media (max-width: 768px) {
   body {
@@ -272,5 +266,6 @@ body {
     padding: 100px 20px;
   }
 }
+
 
 
