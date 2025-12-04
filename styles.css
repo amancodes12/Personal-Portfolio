@@ -32,8 +32,8 @@ body {
   height: 120px;
   border-radius: 50%;
   margin-bottom: 10px;
-  transition: transform 0.6s ease;
-  animation: spin 3s linear infinite;
+  transform-style: preserve-3d;
+  animation: spinY 8s linear infinite;
   animation-play-state: paused;
 }
 
@@ -282,15 +282,15 @@ body {
 }
 
 /* Trigger spin every 5 seconds */
-@keyframes spin-trigger { 
-  0% { transform: rotate(0deg); }
-  3% { transform: rotate(360deg); }   /* quick spin */
+@keyframes spinY { 
+  0% { transform: rotate(0deg); } 
   100% { transform: rotate(360deg); } 
 }
 
 .profile-img {
   animation: spin-trigger 6s infinite;
 }
+
 
 
 
