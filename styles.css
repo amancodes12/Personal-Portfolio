@@ -156,6 +156,8 @@ body {
 
 /* SECTIONS */
 .section {
+  height: auto;   /* instead of fixed height */
+  overflow: visible;
   width: 100%;
   max-width: 900px;
   margin: 60px auto;
@@ -280,4 +282,5 @@ body {
     padding: 100px 20px;
   }
 }
+
 
