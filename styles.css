@@ -281,26 +281,3 @@ body {
   }
 }
 
-/* Spin animation */
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-/* Trigger spin every 5 seconds */
-@keyframes spinY { 
-  0% { transform: rotate(0deg); } 
-  100% { transform: rotate(360deg); } 
-}
-
-.profile-img {
-  animation: spin-trigger 6s infinite;
-}
-
-
-
-
-
-
-
-
